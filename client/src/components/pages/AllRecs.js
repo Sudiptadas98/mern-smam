@@ -8,7 +8,7 @@ const AllRecs = () => {
     const [load, setLoad] = useState(true);
     const callAllRecPage = async () => {
         try {
-            const res = await fetch("/allposts", {
+            const res = await fetch("https://smam-backend.onrender.com/allposts", {
                 method: "GET",
                 headers: {
                     Accept: "application/json",
